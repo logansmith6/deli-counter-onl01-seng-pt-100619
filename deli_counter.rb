@@ -10,9 +10,9 @@ end
 
 queue = katz_deli.size
 case queue
-when 0 
+when 0
   puts "There is currently noone in line."
-  
+
 
 
 end
