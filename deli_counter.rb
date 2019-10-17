@@ -12,6 +12,9 @@ queue = katz_deli.size
 case queue
 when 0
   puts "The line is currently empty."
+else
+puts "The"
+
 end
 
 
