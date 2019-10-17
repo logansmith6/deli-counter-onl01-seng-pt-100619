@@ -20,7 +20,7 @@ elsif katz_deli.size > 0
       puts "#{counter + 1}. #{katz_deli[counter]}"
       counter += 1
     end
-    
+
 end
 
 end
