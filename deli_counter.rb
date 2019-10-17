@@ -16,6 +16,7 @@ when 0
 else
   katz_deli.insert(0, "The line is currently:")
   katz_deli.join("#{counter}.")
+  katz_deli.join
   puts katz_deli
 
 
