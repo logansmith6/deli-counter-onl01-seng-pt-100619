@@ -1,7 +1,13 @@
 # Write your code here.
 def line(array)
 katz_deli = []
-katz_deli << array
+x = 0
+array.each do |name|
+  katz_deli[x] = name
+  x += 1
+end
+
+
 counter = 1
 if katz_deli.size == 0
   puts "The line is currently empty."
