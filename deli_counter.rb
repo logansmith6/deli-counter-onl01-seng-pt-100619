@@ -7,3 +7,10 @@ if katz_deli.size == 0
 
 end
 end
+
+def take_a_number(katz_deli, new_customer)
+
+  katz_deli << new_customer
+  puts "#{new_customer} #{katz_deli.index(new_customer) + 1}"
+
+end
