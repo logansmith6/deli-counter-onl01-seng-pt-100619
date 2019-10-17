@@ -14,6 +14,7 @@ case queue
 when 0
   puts "The line is currently empty."
 else
+  puts katz_deli
 puts "The line is currently: "
 katz_deli.each do |name|
   puts "#{counter + 1}. #{name}"
