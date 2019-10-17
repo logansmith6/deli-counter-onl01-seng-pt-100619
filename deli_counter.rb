@@ -18,6 +18,9 @@ elsif katz_deli.size > 0
   puts "The line is currently: "
   katz_deli.size.times do
       puts "#{counter + 1}. #{katz_deli[counter]}"
+      counter += 1
+    end
+    
 end
 
 end
