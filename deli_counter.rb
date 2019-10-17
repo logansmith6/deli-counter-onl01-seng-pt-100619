@@ -16,7 +16,7 @@ when 0
 else
   katz_deli.insert(0, "The line is currently:")
   puts katz_deli
-end
+
 
 end
 
