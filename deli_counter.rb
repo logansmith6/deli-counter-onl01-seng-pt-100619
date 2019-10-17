@@ -3,6 +3,6 @@ def line(array)
 katz_deli = []
 queue = katz_deli.size
 case queue
-when 0
+when nil
   puts "The line is empty."
 end
