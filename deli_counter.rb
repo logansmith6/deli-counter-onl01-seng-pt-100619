@@ -9,12 +9,13 @@ array.each do |name|
 end
 
 queue = katz_deli.size
-counter = 0
+counter = 1
 case queue
 when 0
   puts "The line is currently empty."
 else
   katz_deli.insert(0, "The line is currently:")
+  katz_deli.join(counter + ".")
   puts katz_deli
 
 
