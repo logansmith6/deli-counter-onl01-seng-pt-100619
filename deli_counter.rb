@@ -14,10 +14,8 @@ case queue
 when 0
   puts "The line is currently empty."
 else
+  katz_deli.insert(0, "The line is currently:")
   puts katz_deli
-puts "The line is currently: "
-katz_deli.each do |name|
-  puts "#{counter + 1}. #{name}"
 end
 
 end
