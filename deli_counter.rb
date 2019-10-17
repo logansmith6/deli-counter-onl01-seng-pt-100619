@@ -8,7 +8,7 @@ else
   puts "The line is currently: "
   array.each do |name|
     puts "#{counter}. #{name}"
-  end 
+  end
 end
 end
 
