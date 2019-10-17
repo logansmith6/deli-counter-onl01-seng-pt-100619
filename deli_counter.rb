@@ -17,6 +17,7 @@ else
 puts "The line is currently: "
 queue.times do
   puts "#{counter + 1}. #{katz_deli[counter]}"
+end
 
 end
 
