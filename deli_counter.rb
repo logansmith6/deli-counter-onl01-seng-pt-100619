@@ -15,8 +15,8 @@ when 0
   puts "The line is currently empty."
 else
 puts "The line is currently: "
-queue.times do
-  puts "#{counter + 1}. #{katz_deli[counter]}"
+katz_deli.each do |name|
+  puts "#{counter + 1}. #{name}"
 end
 
 end
