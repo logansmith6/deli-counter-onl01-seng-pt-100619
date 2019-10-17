@@ -16,7 +16,7 @@ when 0
 else
   katz_deli.insert(0, "The line is currently:")
 
-  katz_deli.join
+  katz_deli.to_sentence
   puts katz_deli
 
 
