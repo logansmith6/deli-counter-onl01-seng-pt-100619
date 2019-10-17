@@ -7,7 +7,7 @@ if katz_deli.size == 0
   puts "The line is currently empty."
 elsif katz_deli.size > 0
   puts "The line is currently: "
-  array.each do |name|
+  katz_deli.each do |name|
     puts "#{counter}. #{name}"
   end
 end
