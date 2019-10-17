@@ -1,6 +1,6 @@
 # Write your code here.
 def line(array)
-  
+
 katz_deli = []
 x = 0
 array.each do |name|
